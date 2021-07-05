@@ -169,3 +169,15 @@ dataset](data/felv_metadata.tsv)
 
 2.  Next, run this [differential gene expression
     analysis](scripts/sam_DGE_edgeR.R) script.
+    
+    Again, if there are lines of code that don’t make sense, check the
+    edgeR manual. After doing this, you should have generated a series
+    of plots, as well as a final table of all significantly
+    differentially expressed genes between fibroblasts and PMBCs.
+
+3.  Figure out what the top 20 most differentially expressed genes are
+    
+    You can look these up based on gene ID in the Uniprot online
+    database.
+
+4.  After this, we’ll move on to functional enrichment analyses\!
